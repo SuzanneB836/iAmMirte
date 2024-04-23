@@ -1,15 +1,22 @@
 body {
     background: rgb(248,47,59);
-background: linear-gradient(90deg, rgba(248,47,59,0.20) 0%, rgba(251,90,54,0.20) 50%, rgba(255,166,46,0.20) 100%);
+    background: linear-gradient(90deg, rgba(248,47,59,0.20) 0%, rgba(255,166,46,0.40) 100%);
     font-family: 'Open Sans';
 }
 
 .title img{
     width: 300px;
+    height: 60px;
 }
 
 .nav {
+    padding-right: 100px;
+    padding-left: 100px;
     display: flex;
+}
+
+.emptynav {
+    width: 45%;
 }
 
 .button {
@@ -17,7 +24,7 @@ background: linear-gradient(90deg, rgba(248,47,59,0.20) 0%, rgba(251,90,54,0.20)
     margin-left: 50px;
     font-family:Arial;
     width:140px;
-    height:50px;
+    height:60px;
     border-width:1px;
     color:#fff;
     border-color:#d02718;
@@ -30,15 +37,10 @@ background: linear-gradient(90deg, rgba(248,47,59,0.20) 0%, rgba(251,90,54,0.20)
     text-shadow: 0px 1px 50px #810e05;
     background:linear-gradient(#c62d1f, #f24437);
     text-align: center;
-    line-height: 50px;
+    line-height: 60px;
     text-decoration: none;
 }
 
 .button:hover {
     background: linear-gradient(#f24437, #c62d1f);
-}
-
-.buttons {
-    position: absolute; 
-    right: 0px;
 }
