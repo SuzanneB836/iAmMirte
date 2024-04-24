@@ -82,3 +82,22 @@ body {
     font-size: 2rem;
 }
 
+.producten {
+    padding-top: 100px;
+    padding-right: 300px;
+    padding-left: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 40px;
+}
+
+.producten img {
+    width: 500px;
+    height: 280px;
+}
+
+.producten p {
+    margin: 0px;
+}
