@@ -101,3 +101,15 @@ body {
 .producten p {
     margin: 0px;
 }
+
+.producten div {
+    transition: transform 0.5s ease, opacity 0.5s ease;
+}
+
+.zoomed {
+    transform: scale(1.5);
+}
+
+.hidden {
+    opacity: 0;
+}
