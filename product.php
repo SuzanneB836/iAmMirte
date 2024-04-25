@@ -86,7 +86,7 @@
                     foreach($_SESSION['cart'] as $id => $count) {
                         $item_price = $prices[$id] * $count;
                         $total_price += $item_price;
-                        echo "<li>Item $id - Hoeveelheid: $count - Prijs: €$item_price <form method='post'><input type='hidden' name='remove_id' value='$id'><button type='submit' name='remove_from_cart'>Remove</button></form></li>";
+                        echo "<p>Item $id - Hoeveelheid: $count - Prijs: €$item_price <form method='post'><input type='hidden' name='remove_id' value='$id'><button type='submit' name='remove_from_cart'>Remove</button></form></p>";
                     }
                     echo "</ul>";
                 } else {
