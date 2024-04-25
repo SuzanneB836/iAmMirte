@@ -148,11 +148,13 @@ body {
     cursor: pointer;
     border-bottom: 1px solid #ccc;
     padding: 10px;
-    width: 35vw;
+    width: 33vw;
+    font-size: large;
 }
 
 .content {
-    width: 35vw;
+    
+    width: 33vw;
     display: none;
     padding: 10px;
     background-color: #f9f9f9;
@@ -160,9 +162,26 @@ body {
 }
 
 .vragen {
+
+    margin-top: 25vh;
+    margin-left: 8vw;
     border-bottom: 1px solid #ccc;
     padding: 10px;
     width: 36vw;
     height: 40vh;
     background: radial-gradient(circle, rgba(248, 47, 59, 0.20), rgba(255, 166, 46, 0.40));
+    overflow-x: auto;
+}
+
+.information {
+    width: 20vw;
+    height: 43vh;
+    background: radial-gradient(circle, rgba(248, 47, 59, 0.20), rgba(255, 166, 46, 0.40));
+    margin-left: 50vw;
+    margin-top: -43vh;
+    font-size: large;
+}
+
+.contact1 {
+    margin-left: 13%;
 }
