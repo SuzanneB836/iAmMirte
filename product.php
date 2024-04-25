@@ -25,7 +25,7 @@
     <article class="productmain">
         <img src="img/basicbox.png">
         <h2> MIRTE Basic </h2>
-        <p> Beschrijving </p>
+        <p> De basic kit met een breadboard, Raspberry Pi Pico en de IR sensor (2x) </p>
         <p> € 79,99 </p>
             <form method="post">
                 <input type="hidden" name="product_id" value="1">
@@ -33,10 +33,12 @@
             </form>
     </article>
 
+    <div class="line"> </div>
+
     <article class="productmain">
         <img src="img/pioneerbox.png">
         <h2> MIRTE Pioneer </h2>
-        <p> Beschrijving </p>
+        <p> Volledige verpakking met alle onderdelen voor maximale leer ervaring. </p>
         <p> € 149,99 </p>
             <form method="post">
                 <input type="hidden" name="product_id" value="2">
