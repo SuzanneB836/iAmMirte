@@ -166,3 +166,39 @@ body {
 footer{
     margin-top: 10vh;
 }
+.productplace {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+.productmain {
+    margin: 20px;
+    padding: 20px;
+
+    text-align: center;
+    width: 300px;
+}
+
+.productmain img {
+    max-width: 100%;
+}
+
+.line {
+    width:1px;
+    display: flex;
+    background-color: #fff;
+    height:500px;
+}
+
+.cartplace {
+    background-color: rgba(255, 255, 255, 0.15);
+    text-align: center;
+    padding: 20px;
+}
+
+.cart {
+    border: solid #fff 1px;
+    padding: 20px;
+}
