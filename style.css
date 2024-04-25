@@ -124,7 +124,7 @@ body {
 .productmain {
     margin: 20px;
     padding: 20px;
-    border: 1px solid #ccc;
+
     text-align: center;
     width: 300px;
 }
@@ -133,13 +133,20 @@ body {
     max-width: 100%;
 }
 
+.line {
+    width:1px;
+    display: flex;
+    background-color: #fff;
+    height:500px;
+}
+
 .cartplace {
-    background-color: #f4f4f4;
+    background-color: rgba(255, 255, 255, 0.15);
     text-align: center;
     padding: 20px;
 }
 
 .cart {
-    border: 2px dashed #ccc;
+    border: solid #fff 1px;
     padding: 20px;
 }
