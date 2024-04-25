@@ -14,7 +14,7 @@
         <div class="nav">
             <div class="title"> <a href="index.html"> <img src="img/logo.png"> </a> </div> 
             <div class="emptynav"> </div>
-            <a href="html/kiesproduct.html" class="button">Producten</a>
+            <a href="product.php" class="button">Producten</a>
             <a href="html/overons.html" class="button">Over Ons</a>
             <a href="html/contact.html" class="button">Contact</a>
             <a href="html/nieuws.html" class="button">Nieuws</a>
