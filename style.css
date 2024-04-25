@@ -113,3 +113,33 @@ body {
 .hidden {
     opacity: 0;
 }
+
+.productplace {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+.productmain {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    text-align: center;
+    width: 300px;
+}
+
+.productmain img {
+    max-width: 100%;
+}
+
+.cartplace {
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 20px;
+}
+
+.cart {
+    border: 2px dashed #ccc;
+    padding: 20px;
+}
